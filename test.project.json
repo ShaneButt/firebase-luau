@@ -1,0 +1,53 @@
+{
+  "name": "robase-service",
+  "tree": {
+    "$className": "DataModel",
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "firebase-luau": {
+        "$path": "default.project.json"
+      }
+    },
+
+    "HttpService": {
+      "$className": "HttpService",
+      "$properties": {
+          "HttpEnabled": true
+      }
+    },
+
+    "Workspace": {
+      "$className": "Workspace",
+      
+      "$properties": {
+        "FilteringEnabled": true
+      },
+
+      "Baseplate": {
+        "$className": "Part",
+        
+        "$properties": {
+          "Position": [0.0, -5.0, 0.0 ],
+          "Locked": true,
+          "Anchored": true,
+          "Size": [ 128.0, 10.0, 128.0 ],
+          "Color": [0.121569, 0.501961, 0.113725]
+        },
+
+        "Texture": {
+          "$className": "Texture",
+          
+          "$properties": {
+            "Texture": "rbxassetid://6372755229",
+            "Transparency": 0.5,
+            "Face": "Top",
+            "Color3": [0,0,0],
+            "StudsPerTileU": 8,
+            "StudsPerTileV": 8
+          }
+        }
+      }
+    }
+  }
+}

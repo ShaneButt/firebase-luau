@@ -1,0 +1,12 @@
+[package]
+name = "shanebutt/firebase-luau"
+version = "0.0.0"
+license = "MPL-2.0"
+authors = [ "Shane Butt <shaneslothrsf@gmail.com>" ]
+description = "A simple to use promise-driven SDK for the Firebase API."
+
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "server"
+
+[dependencies]
+Promise = "evaera/promise@4.0.0"

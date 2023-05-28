@@ -1,0 +1,11 @@
+{
+  "name": "firebase-luau",
+  "tree": {
+   "$path": "src",
+   "$className": "ModuleScript",
+	"dependencies": {
+		"$path": "Packages",
+		"$className": "Folder"
+	}
+  }
+}
